@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    background-color: #1d212f;
+}
+::-webkit-scrollbar-button{
+   background-color: rgb(116, 116, 194);
+}
+::-webkit-scrollbar-thumb{
+    /* padding: 12px 8px; */
+    border-radius: 10px;
+    background-color: blue;
+   
+
+}

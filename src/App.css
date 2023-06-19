@@ -1,0 +1,34 @@
+body{
+    cursor: pointer;
+}
+.header{
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.home{
+    overflow: hidden;
+    cursor: pointer;
+    /* background: rgba( 183, 50, 210, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+@media screen and (max-width:768px) {
+    .header{
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .advantage{
+        flex-direction: column;
+
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .ready{
+        flex-direction: column;
+    }
+    
+}
